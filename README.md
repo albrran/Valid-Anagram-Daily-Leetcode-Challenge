@@ -20,5 +20,11 @@
     </ul>
 <br>
 <h1>Solution 1: Compare using Char Array</h1>
-<p></p>
+<p>Imagine that we've received two packages of computer mouse and we want to determine that both packages have the same exact kinds of mouse. We peer through each box simultaneously and take out a mouse at random, then compare them to each other, but what good would that do? What if we emptied each box and sorted the mice based on size, and then compared them simultaneously? That would allow us to tell if both packages have the same exact kinds of mouse and the same number of mouse. </p>
     
+<br>
+<h3>Lets break it down into steps</h3>
+<ol>
+    <li>Determine if the length of the given strings are the same since an anagram can exist only if both strings are of the same length, if not return false</li>
+    <li></li>
+</ol>
