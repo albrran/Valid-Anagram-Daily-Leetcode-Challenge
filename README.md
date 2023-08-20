@@ -20,8 +20,10 @@
     </ul>
 <br>
 <h1>Solution 1: Compare using Char Array</h1>
-<p>Imagine that we've received two packages of computer mouse and we want to determine that both packages have the same exact kinds of mouse. We peer through each box simultaneously and take out a mouse at random, then compare them to each other, but what good would that do? What if we emptied each box and sorted the mice based on size, and then compared them simultaneously? That would allow us to tell if both packages have the same exact kinds of mouse and the same number of mouse. </p>
-    
+<p>Imagine that we've received two packages of alphabetical letters and we want to determine that both packages have the same exact kind of letters. We peer through each box simultaneously and take out a letter at random, then compare them to each other, but what good would that do? What if we emptied each box and sorted the letters based on size, and then compared them simultaneously? That would allow us to tell if both packages have the same exact kinds of letters and the same number of letters. </p>
+            
+![anagrams gif](https://github.com/albrran/Valid-Anagram-Daily-Leetcode-Challenge/assets/120284166/eca8569b-9532-468f-b508-2b4547b36953)
+
 <br>
 <h3>Lets break it down into steps</h3>
 <ol>
@@ -30,5 +32,5 @@
     <li>Sort each char array.</li>
     <li>Loop through an array (doesn't matter which one) while comparing index values only breaking the loop and returning false if the values are not the same</li>
 </ol>
-<p>Time Complexity: O(nlogn). We're using the ".sort()" which is log(n) and a for loop which is n. Therefore the time complexity is nlogn</p>
-<p>Space Complexity: O(n). We are iterating to the length of n, the given string's length</p>
+<p>Time Complexity: O(nlogn). We're using the ".sort()" which is log(n) and a for loop which is n. Multiply and the time complexity is nlogn</p>
+<p>Space Complexity: O(n). We are creating two separate char arrays which are based on the given strings' length</p>
