@@ -26,5 +26,9 @@
 <h3>Lets break it down into steps</h3>
 <ol>
     <li>Determine if the length of the given strings are the same since an anagram can exist only if both strings are of the same length, if not return false</li>
-    <li></li>
+    <li>Convert each string into a char array.</li>
+    <li>Sort each char array.</li>
+    <li>Loop through an array (doesn't matter which one) while comparing index values only breaking the loop and returning false if the values are not the same</li>
 </ol>
+<p>Time Complexity: O(nlogn). We're using the ".sort()" which is log(n) and a for loop which is n. Therefore the time complexity is nlogn</p>
+<p>Space Complexity: O(n). We are iterating to the length of n, the given string's length</p>
